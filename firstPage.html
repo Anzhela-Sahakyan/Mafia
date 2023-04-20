@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mafia
-    </title>
-</head>
-<body>
-    <h1>MAFIA</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="firstPage.css" />
+    <title>Mafia</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="retro-34096.mp4" type="video/mp4" />
+    </video>
+    <h1 id="header">MAFIA</h1>
 
-<form action="/action_page.php">
-  <label for="fname">Black</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Red</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <input type="submit" value="Start">
-</form>
-</body>
+    <form action="/action_page.php">
+      <label for="fname" class="label" id="black">Black</label>
+      <input
+        type="text"
+        id="fname"
+        class="input_box"
+        name="fname"
+      /><br /><br />
+      <label for="lname" class="label" id="red">Red</label>
+      <input
+        type="text"
+        id="lname"
+        class="input_box"
+        name="lname"
+      /><br /><br />
+      <input type="submit" value="START" id="submit" />
+    </form>
+  </body>
 </html>
