@@ -45,3 +45,7 @@
   border-radius: 50px;
   cursor: pointer;
 }
+
+.button-success:hover {
+  color: red;
+}

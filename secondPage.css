@@ -58,3 +58,7 @@
   cursor: pointer;
   background-color: #e5aec6;
 }
+
+.button-success:hover {
+  color: red;
+}
