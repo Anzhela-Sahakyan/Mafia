@@ -48,3 +48,7 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+.button-success:hover {
+  color: red;
+}
