@@ -49,14 +49,14 @@
 }
 .continue {
   margin: auto;
-  margin-top: 180px;
+  margin-top: -128px;
   margin-right: 60px;
   height: 80px;
-  width: 250px;
+  width: 270px;
   font-size: 50px;
   border-radius: 10px;
   cursor: pointer;
-  background-color: #e5aec6;
+  background-color: #40b649;
 }
 
 .button-success:hover {
