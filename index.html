@@ -19,13 +19,14 @@
     </video>
     <h1 id="header">MAFIA</h1>
 
-    <form>
+    <form action="./secondPage.html">
       <label for="fname" class="label" id="black">Black</label>
       <input
         type="text"
         id="fname"
         class="input_box"
         name="fname"
+        placeholder="blacks" required
       /><br /><br />
       <label for="lname" class="label" id="red">Red</label>
       <input
@@ -33,8 +34,10 @@
         id="lname"
         class="input_box"
         name="lname"
+        style="color: red;"
+        placeholder="reds" required 
       /><br /><br />
-      <input type="button" class="button-success" value="START" id="submit" />
+      <input type="submit" class="button-success" value="START" id="submit" />
     </form>
   </body>
 </html>
